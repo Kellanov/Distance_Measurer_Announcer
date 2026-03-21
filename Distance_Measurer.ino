@@ -33,7 +33,7 @@ void loop() {
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
 
-  // Capture the pulse duration ONCE
+  // Capture the pulse duration
   duration = pulseIn(echoPin, HIGH, 30000);
 
   // display distance on lcd
