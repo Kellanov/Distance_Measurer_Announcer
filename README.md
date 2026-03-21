@@ -18,7 +18,7 @@ I2C Liquid Crystal Display
 8 ohm 2 Watt Speaker
 
 ## Wiring Diagram
-\
+
 
 ## Real-World Diagram Implementation
 
