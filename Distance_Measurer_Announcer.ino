@@ -27,7 +27,7 @@ void setup() {
 }
 
 void loop() {
-    // Supersonic Sensor Logic
+    // Ultrasonic Sensor Logic
     digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
     digitalWrite(trigPin, HIGH);
