@@ -13,8 +13,11 @@ Since the Arduino Mega 2560 doesn't have a proper sound card, I had to use the T
 
 ## Components Used
 Arduino Mega 2560
+
 HC-SR04 Supersonic Sensor
+
 I2C Liquid Crystal Display
+
 8 ohm 2 Watt Speaker
 
 ## Wiring Diagram
@@ -22,6 +25,7 @@ I2C Liquid Crystal Display
 
 
 ## Real-World Diagram Implementation
+
 ### Variation 1
 ![IMG_9344](https://github.com/user-attachments/assets/6556bc4f-fe47-4c4d-ac82-cff17344dc9b)
 
