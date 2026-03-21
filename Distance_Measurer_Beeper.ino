@@ -13,7 +13,7 @@ const int trigPin = 9;
 const int echoPin = 10;
 
 void setup() {
-    Serial.begin(115200); // Matches the GitHub example speed [cite: 16]
+    Serial.begin(115200);
     
     pinMode(trigPin, OUTPUT);
     pinMode(echoPin, INPUT);
@@ -22,13 +22,13 @@ void setup() {
     lcd.backlight();
     lcd.print("Voice Sync Pro");
 
-    // This initializes the voice hardware [cite: 21]
+    // This initializes the voice hardware
     Voice.sayQ(spPAUSE1); 
     Serial.println("Talkie Online");
 }
 
 void loop() {
-    // 1. Standard Trigger Logic
+    // Standard Trigger Logic
     digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
     digitalWrite(trigPin, HIGH);
@@ -39,15 +39,15 @@ void loop() {
     
     if (duration > 0) {
         int tCentimeter = (duration * 0.0343) / 2;
-        float tDistanceMeter = tCentimeter / 100.0; // GitHub example uses meters [cite: 1, 24]
+        float tDistanceMeter = tCentimeter / 100.0;
 
-        // 2. Update LCD
+        // Update LCD
         lcd.setCursor(0, 0);
         lcd.print("Dist: ");
         lcd.print(tCentimeter);
         lcd.print(" cm      ");
 
-        // 3. GitHub Voice Logic 
+        // GitHub Voice Logic 
         // Announce distance in meters (e.g., "Zero Point Five Meters")
         sayQFloat(&Voice, tDistanceMeter, 2, true, true);
         Voice.sayQ(sp2_METER);
@@ -59,7 +59,7 @@ void loop() {
     } else {
         lcd.setCursor(0, 1);
         lcd.print("OUT OF RANGE   ");
-        Voice.sayQ(sp2_OUT); // Says "Out" [cite: 23]
+        Voice.sayQ(sp2_OUT);
     }
 
     delay(1000); 
