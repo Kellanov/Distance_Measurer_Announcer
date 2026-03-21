@@ -1,14 +1,14 @@
 # Distance_Measurer_Announcer
 ## Description
 ### Variation 1
-Measures distance using a supersonic sensor and displays the distance on an LCD I2C screen. 
+Measures distance using a ultrasonic sensor and displays the distance on an LCD I2C screen. 
 
 ### Variation 2
-Measures distance using a supersonic sensor, displays the distance on an LCD I2C screen and produces a beeping noise when an object is detected within a certain range. 
+Measures distance using a ultrasonic sensor, displays the distance on an LCD I2C screen and produces a beeping noise when an object is detected within a certain range. 
 The closer an object is to the sensor, the faster the beeps will become.
 
 ### Variation 3
-Measures distance using a supersonic sensor, displays the distance on an LCD I2C screen and announces the distance that was measured/calculated.
+Measures distance using a ultrasonic sensor, displays the distance on an LCD I2C screen and announces the distance that was measured/calculated.
 Since the Arduino Mega 2560 doesn't have a proper sound card, I had to use the Talkie library (which uses Pulse Width Modulation) to emulate human speech.
 
 ## Components Used
