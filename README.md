@@ -12,13 +12,13 @@ Measures distance using a ultrasonic sensor, displays the distance on an LCD I2C
 Since the Arduino Mega 2560 doesn't have a proper sound card, I had to use the Talkie library (which uses Pulse Width Modulation) to emulate human speech.
 
 ## Components Used
-Arduino Mega 
+Arduino Mega 2560
 HC-SR04 Supersonic Sensor
 I2C Liquid Crystal Display
 8 ohm 2 Watt Speaker
 
 ## Wiring Diagram
-
+\
 
 ## Real-World Diagram Implementation
 
