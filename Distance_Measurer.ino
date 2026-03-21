@@ -13,7 +13,7 @@ void setup() {
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
 
-  // initialize lcd
+  // Initialize lcd
   lcd.init();
   lcd.backlight();
   
@@ -26,7 +26,7 @@ void setup() {
 }
 
 void loop() {
-  // Trigger the sensor
+  // Trigger sensor
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
@@ -36,7 +36,7 @@ void loop() {
   // Capture the pulse duration
   duration = pulseIn(echoPin, HIGH, 30000);
 
-  // display distance on lcd
+  // Display distance on lcd
   lcd.setCursor(0, 0);
   lcd.print("Distance:       "); 
 
