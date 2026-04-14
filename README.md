@@ -26,7 +26,7 @@ I2C Liquid Crystal Display
 <img width="907" height="800" alt="image" src="https://github.com/user-attachments/assets/e05e717a-f2bc-4fa9-9e74-829430834f87" />
 
 ### Variation 2
-
+<img width="863" height="808" alt="image" src="https://github.com/user-attachments/assets/3da9e605-58a2-40fc-99f3-1eb2ef38021a" />
 
 ### Variation 3
 
