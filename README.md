@@ -57,3 +57,6 @@ https://github.com/user-attachments/assets/c750708f-11fa-40de-b9e6-4377250f46eb
 
 
 ### Variation 3
+https://github.com/user-attachments/assets/fe2b0f4f-e09d-48a1-aafe-0b5cd5dbf74f
+
+
