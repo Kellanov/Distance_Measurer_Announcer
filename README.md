@@ -53,6 +53,7 @@ https://github.com/user-attachments/assets/2b129b2d-819b-494d-ba0a-e45eddf13223
 
 
 ### Variation 2
+https://github.com/user-attachments/assets/c750708f-11fa-40de-b9e6-4377250f46eb
 
 
 ### Variation 3
