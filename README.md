@@ -22,6 +22,13 @@ I2C Liquid Crystal Display
 
 ## Wiring Diagram
 
+### Variation 1
+<img width="907" height="800" alt="image" src="https://github.com/user-attachments/assets/e05e717a-f2bc-4fa9-9e74-829430834f87" />
+
+### Variation 2
+
+
+### Variation 3
 
 
 ## Real-World Diagram Implementation
